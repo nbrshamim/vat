@@ -1,8 +1,10 @@
 npx create-react-app frontend
 
-
-
 cd frontend
+
+npm install react-bootstrap bootstrap
+npm install react-router-dom
+
 
 What is the name of your first school?
 What is the name of your favorite personality?
