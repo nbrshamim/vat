@@ -1,0 +1,87 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.gradient-background {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #d0e7ff 0%, #eaf4ff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.signup-heading {
+  font-weight: bold;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #2ecc71, #27ae60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.page-content {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
+
+.service-card {
+  transition: transform 0.3s ease;
+  color: white;
+  border-radius: 12px;
+}
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.vat-card {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+.return-card {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+}
+.refund-card {
+  background: linear-gradient(135deg, #f39c12, #e67e22);
+}
+
+
+.service-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  color: white;
+}
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+/* Unique color panels */
+.vat-panel {
+  background: linear-gradient(135deg, #16a085, #1abc9c); /* Teal-green */
+}
+.return-panel {
+  background: linear-gradient(135deg, #8e44ad, #9b59b6); /* Purple */
+}
+.refund-panel {
+  background: linear-gradient(135deg, #e74c3c, #c0392b); /* Red-orange */
+}
+
+.service-card .btn {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.card-header-box {
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.card-header-box h5 {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}

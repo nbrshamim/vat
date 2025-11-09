@@ -1,0 +1,14 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #2ecc71 0%, #27ae60 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  z-index: 1000;
+}
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .nav-dropdown {
+  color: white !important;
+}
+.custom-navbar .nav-link:hover {
+  color: #dfffe2 !important;
+}
