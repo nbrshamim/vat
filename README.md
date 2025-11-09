@@ -1,8 +1,8 @@
 npx create-react-app frontend
+
+
+
 cd frontend
-
-
-https://forms.gle/RKmvPqdFKwaUbKMA6
 
 What is the name of your first school?
 What is the name of your favorite personality?
